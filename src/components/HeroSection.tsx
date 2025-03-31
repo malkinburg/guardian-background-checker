@@ -14,10 +14,10 @@ const HeroSection = ({ onSignUpClick }: HeroSectionProps) => {
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2 space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-teal-800 leading-tight">
-              Guardian Care Pro – Powered by National Crime Check
+              Guardian Care Pro – Trusted Background Checks
             </h1>
             <p className="text-lg md:text-xl text-slate-600">
-              Sign up and let us handle your NCC background check so you can focus on delivering quality care.
+              Sign up and let us handle your background verification so you can focus on delivering quality care.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -26,7 +26,7 @@ const HeroSection = ({ onSignUpClick }: HeroSectionProps) => {
                 className="bg-teal-600 hover:bg-teal-700"
                 onClick={onSignUpClick}
               >
-                Sign Up for NCC Background Check
+                Sign Up for Background Check
               </Button>
               <Button 
                 variant="outline" 
@@ -57,7 +57,7 @@ const HeroSection = ({ onSignUpClick }: HeroSectionProps) => {
             <div className="bg-white p-6 rounded-lg shadow-lg border border-slate-100 max-w-md mx-auto">
               <img 
                 src="/placeholder.svg" 
-                alt="NCC Background Check Process" 
+                alt="Background Check Process" 
                 className="w-full rounded-md"
               />
               <div className="mt-4 text-center p-3 bg-teal-50 rounded-md">

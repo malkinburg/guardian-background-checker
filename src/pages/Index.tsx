@@ -43,7 +43,7 @@ const Index = () => {
         <DialogContent className="sm:max-w-[550px] max-h-[90vh] overflow-y-auto">
           <DialogHeader>
             <DialogTitle className="text-2xl font-bold text-center">
-              Start Your NCC Background Check
+              Start Your Background Check
             </DialogTitle>
           </DialogHeader>
           <SignUpForm onClose={() => setIsModalOpen(false)} />

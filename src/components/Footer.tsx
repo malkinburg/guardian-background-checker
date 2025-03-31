@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Logo />
             <p className="text-slate-600 text-sm">
-              Guardian Care Pro partners with National Crime Check to provide reliable background screening for care professionals.
+              Guardian Care Pro provides reliable background screening for care professionals, helping you hire with confidence.
             </p>
           </div>
           
@@ -61,11 +61,6 @@ const Footer = () => {
         
         <div className="mt-12 pt-6 border-t border-slate-200 text-center text-slate-500 text-sm">
           <p>© {new Date().getFullYear()} Guardian Care Pro. All rights reserved.</p>
-          <p className="mt-1">
-            <small>
-              National Crime Check is a registered trademark and service. Guardian Care Pro is not affiliated with NCC.
-            </small>
-          </p>
         </div>
       </div>
     </footer>

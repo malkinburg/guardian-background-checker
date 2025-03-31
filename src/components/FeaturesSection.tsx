@@ -8,7 +8,7 @@ const FeaturesSection = () => {
     {
       icon: <Shield className="h-12 w-12 text-teal-600" />,
       title: "Comprehensive Screening",
-      description: "Our partnership with National Crime Check ensures thorough background verification for all support workers."
+      description: "Our thorough background verification ensures all support workers meet your safety standards."
     },
     {
       icon: <Clock className="h-12 w-12 text-teal-600" />,
@@ -17,8 +17,8 @@ const FeaturesSection = () => {
     },
     {
       icon: <FileCheck className="h-12 w-12 text-teal-600" />,
-      title: "Official NCC Certification",
-      description: "All background checks are officially certified by National Crime Check, a government-approved screening provider."
+      title: "Official Certification",
+      description: "All background checks are officially certified by authorized government-approved screening providers."
     },
     {
       icon: <UserCheck className="h-12 w-12 text-teal-600" />,
@@ -43,7 +43,7 @@ const FeaturesSection = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-teal-800 mb-4">Why Choose Guardian Care Pro</h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Our platform integrates seamlessly with National Crime Check to provide secure, reliable background screening for care professionals.
+            Our platform provides secure, reliable background screening specifically designed for care professionals.
           </p>
         </div>
         

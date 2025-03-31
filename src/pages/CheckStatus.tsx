@@ -38,7 +38,7 @@ const CheckStatus = () => {
       setProgress(10);
       setCurrentStepDetails([
         "Preparing application data",
-        "Connecting to National Crime Check API",
+        "Connecting to verification services",
         "Initiating background check process",
       ]);
       
@@ -58,7 +58,7 @@ const CheckStatus = () => {
       setCheckState("police_check");
       setProgress(60);
       setCurrentStepDetails([
-        "Submitting request to National Police Checking Service",
+        "Submitting request to Police Checking Service",
         "Searching national database records",
         "Performing interstate record checks",
         "Analyzing criminal history information",
@@ -87,7 +87,7 @@ const CheckStatus = () => {
       toast({
         title: isCleared ? "Background Check Complete" : "Further Review Required",
         description: isCleared 
-          ? "You have been cleared by National Crime Check."
+          ? "You have been cleared by our verification process."
           : "Your application has been flagged for manual review.",
         variant: isCleared ? "default" : "destructive",
       });
@@ -142,7 +142,7 @@ const CheckStatus = () => {
             <CheckCircle className="h-6 w-6 text-green-600" />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-green-800">National Crime Check Clearance Certificate</h3>
+            <h3 className="text-xl font-bold text-green-800">Background Check Clearance Certificate</h3>
             <p className="text-sm text-green-700">
               Certificate Reference: {referenceNumber}
             </p>
@@ -361,7 +361,7 @@ const CheckStatus = () => {
               </div>
               
               <div className="text-center text-sm text-slate-500 mt-4">
-                <p>Reference: NCC-{checkId}</p>
+                <p>Reference: GCP-{checkId}</p>
                 <p>This process may take a few moments. Please do not close this window.</p>
               </div>
             </div>

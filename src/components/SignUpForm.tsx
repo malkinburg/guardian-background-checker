@@ -174,7 +174,7 @@ const SignUpForm: React.FC<SignUpFormProps> = ({ onClose }) => {
           />
           <div className="grid gap-1.5 leading-none">
             <Label htmlFor="consent" className="text-sm font-normal">
-              I understand and consent to the background check through National Crime Check.
+              I understand and consent to the background check through Guardian Care Pro.
             </Label>
             {errors.consent && <p className="text-sm text-red-500">{errors.consent}</p>}
           </div>
